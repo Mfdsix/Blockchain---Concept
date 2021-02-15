@@ -1,20 +1,20 @@
 ### Konsep Blockchain
-dikembangkan ke narasi dari sumber
-https://www.youtube.com/watch?v=R2LQa5LCRwo
+dikembangkan ke narasi dari sumber<br>
+[Apa itu blockchain? Penjelasan Konsep Teknologi Blockchain untuk Pemula - Friends with Blockchain](https://www.youtube.com/watch?v=R2LQa5LCRwo)
 
-thanks: 
+thanks:<br>
 Friends with Blockchain
 
 #### Ilustrasi
-di dalam sebuah kelas ada 2 roles utama, murids dan guru.
-hari ini lagi ujian nich, dan guru ngasih pertanyaan kira-kira 5 soal.
+di dalam sebuah kelas ada 2 roles utama, murids dan guru.<br>
+hari ini lagi ujian nich, dan guru ngasih pertanyaan kira-kira 5 soal.<br>
 gampang kok, soalnya cuma pertambahan aja, kamu pasti bisa.
 
 #### Aturan
-untuk setiap siswa ikuti aturan ini ya,
-untuk setiap pertanyaan penjumlahan di jawab dan dihitung seperti biasa.
+untuk setiap siswa ikuti aturan ini ya,<br>
+untuk setiap pertanyaan penjumlahan di jawab dan dihitung seperti biasa.<br>
 setiap jawaban disimpan ke lembar jawab (ledger)
-cuma sebagai catatan, hasil perhitungan juga ditambah dengan hasil perhitungan soal sebelumnya (aturan hash chain).
+cuma sebagai catatan, hasil perhitungan juga ditambah dengan hasil perhitungan soal sebelumnya (aturan hash chain).<br>
 
 misal, soal sebagai berikut
 1. 1+1 ?
@@ -38,23 +38,23 @@ jadi misal ada 5 murids di kelas, (A, B, C, D, E)
 soal dari guru
 1. 2+2 ?
 
-A: 4!
-B: ?
-C: ?
-D: ?
-E: ?
+A: 4!<br>
+B: ?<br>
+C: ?<br>
+D: ?<br>
+E: ?<br>
 
 nah si A bisa ngitung duluan nih.
-dan karena ada konsep DESENTRALISASI,
+dan karena ada konsep **DESENTRALISASI**,
 maka murids lain harus mengecek jawaban dan mencatat hal yang sama.
 
 jadi kurang lebih sekarang jawabannya
 
-A: 4
-B: 4
-C: 4
-D: 4
-E: 4
+A: 4<br>
+B: 4<br>
+C: 4<br>
+D: 4<br>
+E: 4<br>
 
 nah jadi sama semua kan.
 intinya gitu deh kalau DESENTRALISASI :)
@@ -70,11 +70,11 @@ soalnya soal 1 kan udah kejawab
 
 ayo murids, dijawab ya
 
-A: 5 + (4), 9!
-B: ?
-C: ?
-D: 6 + (4), 10!
-E: ?
+A: 5 + (4), 9!<br>
+B: ?<br>
+C: ?<br>
+D: 6 + (4), 10!<br>
+E: ?<br>
 
 waduh, kali ini ada 2 jawaban beda nich
 tapi gpp, murids akhirnya tetep ikut konsep DESENTRALISASI
@@ -88,11 +88,11 @@ dia nyatet jawaban kayak jawaban si D,
 
 jadi kurang lebih jadi kayak gini
 
-A: 9	->	pemilik jawaban
-B: 9
-C: 10
-D: 10	->	pemilik jawaban
-E: 10
+A: 9	->	pemilik jawaban<br>
+B: 9<br>
+C: 10<br>
+D: 10	->	pemilik jawaban<br>
+E: 10<br>
 
 haha makin runyam ya,
 nah kalau kondisinya kayak gini gimana nich?
@@ -106,19 +106,19 @@ maka mereka akan voting
 dan ngeliat jawaban mana yang voters nya paling banyak
 berarti didapat
 
-9	=>	2 orang
-10	=>	3 orang
+9	=>	2 orang<br>
+10	=>	3 orang<br>
 
 nah dari solusi itu akhirnya semua sepakat
 kalau jawabannya adalah 10
 
 dan semua jawaban murids akan jadi kayak gini
 
-A: 10
-B: 10
-C: 10
-D: 10
-E: 10
+A: 10<br>
+B: 10<br>
+C: 10<br>
+D: 10<br>
+E: 10<br>
 
 nah proses voting tadi tuh yang dinamakan KONSENSUS,
 jadi semua murids harus memiliki persetujuan yang sama,
@@ -136,25 +136,29 @@ contoh ilustasi sebagai berikut
 emm, sebagai contoh
 kita pakai jawaban nomor 1 dan 2
 
-A:	4
-	10
-B:	4
-	10
-C:	4
-	10
-D:	4
-	10
-E:	4
-	10
+| murid | jawaban |
+| ----- | ------- |
+| A     | 4       |
+|       | 10      |
+| B     | 4       |
+|       | 10      |
+| C     | 4       |
+|       | 10      |
+| D     | 4       |
+|       | 10      |
+| E     | 4       |
+|       | 10      |
 
 nah, tiba-tiba si B jail nih
 dia pengen ngubah jawaban nomor 1 jadi 3 misalnya,
 maka jawaban B akan menjadi
 
-B:	3
-	9*
+| murid | jawaban |
+| ----- | ------- |
+| A     | 3       |
+|       | 9*      |
 
-* nah, kenapa jawaban kedua jadi 9 ?
+(*) nah, kenapa jawaban kedua jadi 9 ?
 karena jawaban nomor 1 berubah
 dan ada aturan hash chain (penambahan dengan record sebelumnya)
 maka jawanan nomor 2 menjadi (6 + 3) = 9
